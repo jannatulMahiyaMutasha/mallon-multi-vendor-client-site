@@ -29,7 +29,7 @@ export default function ForgotPassword() {
         "success"
       );
       setTimeout(() => {
-        window.location.href = "https://mail.google.com"; // Redirect to Gmail
+        window.location.href = "https://mail.google.com"; 
       }, 1500);
     } catch (error) {
       Swal.fire("Error", error.message, "error");
