@@ -5,7 +5,6 @@ export const useAuth = () => {
   const [token, setToken] = useState(null);
 
   useEffect(() => {
-    // Retrieve user and token from localStorage
     const storedUser = JSON.parse(localStorage.getItem("user"));
     const storedToken = localStorage.getItem("token");
 
