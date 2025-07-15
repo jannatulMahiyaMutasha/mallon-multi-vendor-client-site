@@ -2,53 +2,33 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const blogPosts = [
-  {
+ {
     id: 1,
-    title: "Why Firebase is Perfect for Startups",
-    date: "2025-05-01",
+    title: "Covaxin vs Covishield – A Detailed Comparision",
+    date: "June 4, 2021",
     excerpt:
-      "Discover why Firebase is a top choice for rapid development and scalability...",
+      "Covaxin and Covishield are two widely used COVID-19 vaccines developed and distributed in India. Covaxin, developed by Bharat Biotech, is an inactivated vaccine using traditional methods. Covishield, developed by Oxford-AstraZeneca and manufactured by Serum Institute, uses a viral vector platform. Both vaccines have shown strong efficacy and safety in clinical trials. However, Covaxin is stored at 2-8°C, making it suitable for India’s infrastructure, while Covishield is more widely exported. Side effects for both are typically mild. Consult your doctor for the best option.",
     image:
       "https://demo2.wpthemego.com/themes/sw_mallon/wp-content/uploads/2021/06/blog-21.jpg",
   },
   {
     id: 2,
-    title: "Top UI Libraries for React in 2025",
+    title: "Veritatis Eet Quasi Architecto Aeat Vitae DictaSunt",
     date: "2025-04-20",
     excerpt:
-      "Explore the most powerful and easy-to-use UI libraries available today...",
-    image: "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+      "This article explores the famous quote from classical Latin literature, delving into the philosophical meanings behind existence, architecture, and the human experience. The phrase, often misinterpreted, points to the deep-rooted understanding of design in life and how truth is often built from shared narratives. We analyze interpretations from both ancient scholars and modern thinkers.",
+    image:
+      "https://demo2.wpthemego.com/themes/sw_mallon/wp-content/uploads/2021/06/blog-22.jpg",
   },
   {
     id: 3,
-    title: "Boost Your DevOps Workflow with DevOps Guard",
+    title: "Nemo enim ipsam voluptatem quia",
     date: "2025-04-10",
-    excerpt: "Enhance your DevOps lifecycle using top-tier monitoring tools...",
+    excerpt:
+      "In this blog post, we analyze the Latin phrase often seen in legal and philosophical discussions. 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit' translates to 'No one rejects, dislikes, or avoids pleasure itself because it is pleasure.' We break down the context of this saying, explore its legal relevance, and discuss its frequent use in placeholder text (like Lorem Ipsum) in design mockups.",
     image:
-      "https://cdn.cloudeq.com/wp-content/uploads/2023/03/15061618/dev-ops.webp",
-  },
-  {
-    id: 4,
-    title: "CloudSync: Your Data’s Best Friend",
-    date: "2025-03-30",
-    excerpt: "A deep dive into why CloudSync leads the cloud storage race...",
-    image:
-      "https://cdni.iconscout.com/illustration/premium/thumb/data-synchronise-illustration-download-in-svg-png-gif-file-formats--cloud-sync-computing-technology-web-services-pack-seo-illustrations-3324644.png",
-  },
-  {
-    id: 5,
-    title: "How AI Writer Changes the Content Game",
-    date: "2025-03-20",
-    excerpt: "Write better, faster, and smarter using cutting-edge AI tools...",
-    image: "https://via.placeholder.com/600x300.png?text=AI+Writer",
-  },
-  {
-    id: 6,
-    title: "Design Smarter with DesignCraft",
-    date: "2025-03-10",
-    excerpt: "Unleashing creativity using next-gen design tools...",
-    image: "https://via.placeholder.com/600x300.png?text=DesignCraft",
-  },
+      "https://demo2.wpthemego.com/themes/sw_mallon/wp-content/uploads/2021/06/blog-23.jpg",
+  }
 ];
 
 const HomeBlog = () => {

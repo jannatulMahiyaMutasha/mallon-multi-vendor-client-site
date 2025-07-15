@@ -4,37 +4,38 @@ const featuresLeft = [
   {
     icon: "https://demo.wpthemego.com/themes/sw_pharxtore/wp-content/uploads/2023/10/Why_Choose_Us_icon6.png",
     title: "Lowest Price Guarantee",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
- {
-    icon: "https://demo.wpthemego.com/themes/sw_pharxtore/wp-content/uploads/2023/10/Why_Choose_Us_icon6.png",
-    title: "Lowest Price Guarantee",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    desc: "We offer unbeatable prices with a promise to match or beat any competitor’s price on your medications.",
   },
   {
     icon: "https://demo.wpthemego.com/themes/sw_pharxtore/wp-content/uploads/2023/10/Why_Choose_Us_icon6.png",
-    title: "Lowest Price Guarantee",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  }
+    title: "Authentic Medicines Only",
+    desc: "All our products are sourced directly from licensed manufacturers and suppliers, ensuring 100% authenticity.",
+  },
+  {
+    icon: "https://demo.wpthemego.com/themes/sw_pharxtore/wp-content/uploads/2023/10/Why_Choose_Us_icon6.png",
+    title: "Trusted by Thousands",
+    desc: "Join thousands of satisfied customers who rely on our platform for timely and reliable healthcare solutions.",
+  },
 ];
 
 const featuresRight = [
-   {
+  {
     icon: "https://demo.wpthemego.com/themes/sw_pharxtore/wp-content/uploads/2023/10/Why_Choose_Us_icon6.png",
-    title: "Lowest Price Guarantee",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
- {
-    icon: "https://demo.wpthemego.com/themes/sw_pharxtore/wp-content/uploads/2023/10/Why_Choose_Us_icon6.png",
-    title: "Lowest Price Guarantee",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title: "Fast & Secure Delivery",
+    desc: "We ensure quick and safe doorstep delivery with real-time tracking to keep you informed every step of the way.",
   },
   {
     icon: "https://demo.wpthemego.com/themes/sw_pharxtore/wp-content/uploads/2023/10/Why_Choose_Us_icon6.png",
-    title: "Lowest Price Guarantee",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  }
+    title: "24/7 Customer Support",
+    desc: "Our dedicated support team is available round the clock to answer your queries and resolve any issues instantly.",
+  },
+  {
+    icon: "https://demo.wpthemego.com/themes/sw_pharxtore/wp-content/uploads/2023/10/Why_Choose_Us_icon6.png",
+    title: "Easy Prescription Upload",
+    desc: "Upload your prescription effortlessly and get the right medicines delivered without hassle or long wait times.",
+  },
 ];
+
 
 export default function WhyChooseUs() {
   return (

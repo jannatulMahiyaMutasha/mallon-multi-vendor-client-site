@@ -45,17 +45,6 @@ const hotDeals = [
     rating: 0,
     reviews: 0,
   },
-  {
-    id: 5,
-    name: "Vigorum Forehead And Ear Thermometer",
-    category: "Bandages, Gypsum foundations",
-    price: 200,
-    originalPrice: 256,
-    discount: "-22%",
-    image: "https://i.ibb.co/ZLJjrpN/vigorum.png",
-    rating: 0,
-    reviews: 0,
-  },
 ];
 
 const TodayHotDeals = () => {
