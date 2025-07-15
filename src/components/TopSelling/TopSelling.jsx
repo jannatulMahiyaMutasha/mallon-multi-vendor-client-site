@@ -5,7 +5,7 @@ const vendors = [
     name: 'Shoppe',
     rating: 4,
     products: 6,
-    logo: 'https://demo2.pavothemes.com/matico/wp-content/uploads/2022/03/p_hmarketplace_73_1-600x649.jpg', // placeholder
+    logo: 'https://demo2.pavothemes.com/matico/wp-content/uploads/2022/03/p_hmarketplace_73_1-600x649.jpg', 
     items: ['https://demo2.pavothemes.com/matico/wp-content/uploads/2022/03/p_hmarketplace_73_1-600x649.jpg', 'https://demo2.pavothemes.com/matico/wp-content/uploads/2022/03/p_hmarketplace_73_1-600x649.jpg']
   },
   {
@@ -19,7 +19,7 @@ const vendors = [
     name: 'Shoppe',
     rating: 4,
     products: 6,
-    logo: '/shoppe-logo.png', // placeholder
+    logo: '/shoppe-logo.png', 
     items: ['/bike.png', '/cream.png']
   },
   {
@@ -33,7 +33,7 @@ const vendors = [
     name: 'Shoppe',
     rating: 4,
     products: 6,
-    logo: '/shoppe-logo.png', // placeholder
+    logo: '/shoppe-logo.png', 
     items: ['/bike.png', '/cream.png']
   },
   {
@@ -47,7 +47,7 @@ const vendors = [
     name: 'Shoppe',
     rating: 4,
     products: 6,
-    logo: '/shoppe-logo.png', // placeholder
+    logo: '/shoppe-logo.png', 
     items: ['/bike.png', '/cream.png']
   },
   {
@@ -57,7 +57,6 @@ const vendors = [
     logo: '/esther-logo.png',
     items: ['/oil.png']
   },
-  // Add other vendors similarly
 ];
 
 const TopSellingVendors = () => {
