@@ -9,7 +9,7 @@ export default function ProductCard({ product, className, }) {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        minHeight: "300px", // give some height
+        minHeight: "300px", 
       }}
     >
       {/* Overlay to darken background for better text readability */}

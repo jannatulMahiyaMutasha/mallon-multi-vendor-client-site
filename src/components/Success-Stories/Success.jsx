@@ -23,7 +23,7 @@ const successStories = [
     solution: "Adopted DesignCraft for cloud-based team design.",
     result: "Cut design turnaround time by 40% with real-time updates.",
   },
-  // You can add more stories here...
+ 
 ];
 
 const STORIES_PER_PAGE = 1;

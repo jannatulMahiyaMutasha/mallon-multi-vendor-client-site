@@ -62,7 +62,7 @@ export default function MedicinesTable() {
   const [loading, setLoading] = useState(true);
   const [selectedMedicine, setSelectedMedicine] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
-  const [lang, setLang] = useState("en"); // language state: 'en' or 'bn'
+  const [lang, setLang] = useState("en"); 
   const token = localStorage.getItem("token");
 
   useEffect(() => {
@@ -79,8 +79,7 @@ export default function MedicinesTable() {
     fetchMedicines();
   }, []);
 
-  const t = translations[lang]; // current language translations
-
+  const t = translations[lang]; 
   const handleSelect = async (medicineId) => {
     if (!token) {
       alert(t.loginPrompt);
