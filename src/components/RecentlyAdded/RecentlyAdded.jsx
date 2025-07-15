@@ -1,4 +1,3 @@
-
 import ProductCard from '../../components/Shared/ProductCard';
 
 const products = [
@@ -14,7 +13,7 @@ const products = [
     rating: 5,
     image: '/bp-monitor.png'
   },
-  // more...
+  
 ];
 
 const RecentlyAdded = () => (

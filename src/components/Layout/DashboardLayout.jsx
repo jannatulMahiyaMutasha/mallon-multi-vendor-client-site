@@ -79,7 +79,7 @@ const DashboardLayout = () => {
         <nav className="p-4 space-y-2">
           {navItem("/dashboard/overview", <LayoutDashboard className="w-5 h-5" />, "Overview")}
 
-          {/* ✅ ADMIN ONLY */}
+          {/* ADMIN ONLY */}
           {role === "admin" && (
             <>
               {navItem("/dashboard/manage-users", <Flame className="w-5 h-5" />, "Manage Users")}
@@ -91,7 +91,7 @@ const DashboardLayout = () => {
             </>
           )}
 
-          {/* ✅ SELLER ONLY */}
+          {/* SELLER ONLY */}
           {role === "seller" && (
             <>
               {navItem("/dashboard/manage-medicines", <Flame className="w-5 h-5" />, "Manage Medicine")}
@@ -100,7 +100,7 @@ const DashboardLayout = () => {
             </>
           )}
 
-          {/* ✅ USER ONLY */}
+          {/*  USER ONLY */}
           {role === "user" && (
             <>
               {navItem("/dashboard/user-payment", <Flame className="w-5 h-5" />, "Payment History")}
