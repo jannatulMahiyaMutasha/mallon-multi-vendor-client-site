@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   
-  const hideLayoutRoutes = ["/404"]; // You can match more if needed
+  const hideLayoutRoutes = ["/404"]; 
   const isLayoutVisible = !hideLayoutRoutes.includes(location.pathname);
 
   return (
