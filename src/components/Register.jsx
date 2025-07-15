@@ -65,7 +65,7 @@ const Register = () => {
         JSON.stringify({ name: displayName, email, photoURL, role: "user" })
       );
       Swal.fire("Success", "Google Login successful", "success");
-      navigate("/add-task");
+      navigate("/");
     } catch (err) {
       Swal.fire("Error", "Google login failed", "error");
     }
