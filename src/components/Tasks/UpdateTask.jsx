@@ -27,10 +27,10 @@ const UpdateTaskPage = () => {
   useEffect(() => {
     if (token) {
       try {
-        const decodedToken = decodeToken(token); // Decode the token manually
+        const decodedToken = decodeToken(token); 
         setUserInfo({
-          name: decodedToken.name, // Assuming your JWT contains 'name'
-          email: decodedToken.email, // Assuming your JWT contains 'email'
+          name: decodedToken.name, 
+          email: decodedToken.email, 
         });
       } catch (err) {
         console.error("Error decoding token", err);
@@ -41,8 +41,8 @@ const UpdateTaskPage = () => {
 
   // Function to manually decode JWT token
   const decodeToken = (token) => {
-    const base64Url = token.split(".")[1]; // Get the payload part
-    const base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/"); // Fix URL encoding
+    const base64Url = token.split(".")[1]; 
+    const base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/"); 
     const jsonPayload = decodeURIComponent(
       atob(base64)
         .split("")
@@ -52,7 +52,7 @@ const UpdateTaskPage = () => {
         .join("")
     );
 
-    return JSON.parse(jsonPayload); // Return the parsed payload
+    return JSON.parse(jsonPayload); 
   };
 
   // Fetch task details from API
@@ -188,7 +188,7 @@ const UpdateTaskPage = () => {
             </label>
             <input
               type="text"
-              value={userInfo.name} // Using the name from token
+              value={userInfo.name} 
               readOnly
               className="w-full px-4 py-2 border bg-gray-100 rounded-md"
             />
@@ -199,7 +199,7 @@ const UpdateTaskPage = () => {
             </label>
             <input
               type="email"
-              value={userInfo.email} // Using the email from token
+              value={userInfo.email} 
               readOnly
               className="w-full px-4 py-2 border bg-gray-100 rounded-md"
             />

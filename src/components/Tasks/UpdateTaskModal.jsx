@@ -40,7 +40,7 @@ const UpdateTaskModal = ({ task, showModal, setShowModal, token }) => {
         }
       );
       Swal.fire("Success", res.data.message, "success");
-      setShowModal(false); // Close the modal after successful update
+      setShowModal(false); 
     } catch (err) {
       Swal.fire(
         "Error",
@@ -50,7 +50,7 @@ const UpdateTaskModal = ({ task, showModal, setShowModal, token }) => {
     }
   };
 
-  if (!showModal || !task) return null; // Don't render modal if not shown or task is null
+  if (!showModal || !task) return null; 
 
   return (
     <div className="modal">

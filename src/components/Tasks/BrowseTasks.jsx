@@ -49,7 +49,7 @@ const BrowseTasks = () => {
     });
 
     setFilteredTasks(filtered);
-    setCurrentPage(1); // Reset page on filter change
+    setCurrentPage(1); 
   }, [tasks, categoryFilter, sortOrder, titleFilter]);
 
   const categories = [
