@@ -17,7 +17,7 @@ const Login = () => {
       });
       const { token, user } = res.data;
       localStorage.setItem("token", token);
-      localStorage.setItem("user", JSON.stringify(user)); // store full user object including role
+      localStorage.setItem("user", JSON.stringify(user)); 
       Swal.fire("Success", "Login successful", "success");
       navigate("/");
     } catch (err) {

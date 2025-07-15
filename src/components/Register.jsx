@@ -56,7 +56,7 @@ const Register = () => {
           email,
           name: displayName,
           photoURL,
-          role: "user", // Default role for Google sign-in
+          role: "user", 
         }
       );
       localStorage.setItem("token", res.data.token);
