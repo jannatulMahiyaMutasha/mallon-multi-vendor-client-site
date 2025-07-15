@@ -4,6 +4,22 @@ A comprehensive medicine e-commerce platform with role-based dashboards (Admin, 
 
 ---
 
+---
+
+##  Live Site
+
+ **Live URL:** [https://mallon-multi-vendor.web.app/]
+
+---
+
+##  Demo Admin Credentials
+
+To explore the **Admin Dashboard**, use the following test credentials:
+
+```plaintext
+ Email: mahi12@gmail.com 
+ Password: Mahi@12#
+
 ##  Features Overview
 
 ###  Navbar
