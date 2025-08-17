@@ -63,7 +63,7 @@ const AddBlog = ({ user, token }) => {
         </div>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
-          {/* Title */}
+          {/* Title Blog*/}
           <div>
             <input
               type="text"
