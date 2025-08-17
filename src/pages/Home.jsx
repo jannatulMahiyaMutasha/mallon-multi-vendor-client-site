@@ -21,7 +21,6 @@ const Home = () => {
       <HealthcareProducts></HealthcareProducts>
       <TodayHotDeals></TodayHotDeals>
       <WhyChooseUs></WhyChooseUs>
-      <AppPromo />
       <HomeBlog></HomeBlog>
     </div>
   );
