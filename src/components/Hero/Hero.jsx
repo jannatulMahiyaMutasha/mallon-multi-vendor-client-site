@@ -43,9 +43,6 @@ const Hero = () => {
                 <h2 className="text-2xl md:text-5xl font-bold text-white mb-4">{slide.name}</h2>
                 <p className="text-gray-100 mb-6">{slide.description || "No description available."}</p>
                 <div className="flex justify-center md:justify-start gap-4 flex-wrap">
-                  <button className="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition">
-                    Order Now
-                  </button>
                   <button className="bg-white text-blue-700 px-5 py-2 rounded hover:bg-gray-100 transition">
                     Learn More
                   </button>
