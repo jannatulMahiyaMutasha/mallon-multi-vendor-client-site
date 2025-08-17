@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
+      {/* Copyright icon */}
       <div className="text-center text-sm mt-8 border-t border-blue-500 pt-4">
         © {new Date().getFullYear()} Mallon. All rights reserved.
       </div>
