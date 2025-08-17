@@ -32,7 +32,7 @@ const AdminPayments = () => {
         { headers: { Authorization: `Bearer ${token}` } }
       );
       alert("Payment approved!");
-      fetchPayments(); // refresh list
+      fetchPayments(); 
     } catch (err) {
       console.error("Failed to approve payment", err);
       alert("Failed to approve payment");
