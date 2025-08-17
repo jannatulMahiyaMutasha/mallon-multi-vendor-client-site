@@ -5,7 +5,7 @@ const products = [
   { title: 'Infrared Thermometer', price: 130, image: '/thermo.png' },
   { title: 'Fish Oil Omega 3', price: 99, originalPrice: 100, image: '/omega3.png' },
   { title: 'AiroEze Nebuliser', price: 92, rating: 5, image: '/nebulizer.png' },
-  // More...
+  
 ];
 
 const CovidDefense = () => (
